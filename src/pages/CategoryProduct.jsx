@@ -6,6 +6,7 @@ import { ChevronLeft } from 'lucide-react'
 import ProductListView from '../components/ProductListView'
 
 const CategoryProduct = () => {
+  
   const [searchData, setSearchData] = useState([])
   const params = useParams()
   const category = params.category
