@@ -27,6 +27,7 @@ const SingleProduct = () => {
     useEffect(() => {
         getSingleProduct()
     }, [])
+    
 
     const OriginalPrice = Math.round(SingleProduct.price + (SingleProduct.price * SingleProduct.discount / 100))
 
