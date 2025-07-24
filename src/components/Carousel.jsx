@@ -56,7 +56,7 @@ const Carousel = () => {
         {
             data?.slice(0,7)?.map((item,index)=>{
                 return <div key={index} className='bg-gradient-to-r from-[#0f0c29] via-[#302b63] to-[#24243e] -z-10' >
-                    <div className='flex flex-col md:flex-row gap-10 justify-center h-[600px] my-20 md:my-0 mt-2 items-center px-4'>
+                    <div className='flex flex-col md:flex-row gap-10 justify-center h-[600px] my-20 md:my-0  items-center px-4'>
                         <div className='md:space-y-6  space-y-3'>
                                <h3 className='text-red-500 font-semibold font-sans text-sm'>Powering Your World with the Best in Electronics</h3>
                                <h1 className='md:text-4xl text-xl font-bold uppercase line-clamp-2 md:line-clamp-3 md:w-[500px] text-white'>{item.title}</h1>
